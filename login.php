@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-	$db = new PDO ("mysql:host=localhost;dbname=Panel;charset=utf8","root","berke144277");
+	$db = new PDO ("mysql:host=localhost;dbname=Panel;charset=utf8","root","sifre");
 
 	//if (!null == ($fname && $sname)) {
 	if ( !empty(isset($_POST['username'])) && !empty(isset($_POST['username'])) ) {
