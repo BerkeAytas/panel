@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 50px;
+	background-color: silver;
+}
+.hName{
+}
+.dashboard{
+	background-color: skyblue;
+	list-style-type: none;
+	padding: 4px;
+	border-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.dashboard-item{
+	color: black;
+}
+.item{
+	color: black;
+	font-size: 20px;
+}
